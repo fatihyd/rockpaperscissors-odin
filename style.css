@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.game {
+    display: flex;
+}
+
+h1 {
+    size: 64px;
+    font-family: 'Aclonica';
+    margin: 64px;
+}
+
+
+button {
+    min-width: 200px;
+    min-height: 200px;
+    font-size: 50px;
+}
+
+#rock:hover {
+    background-color: gray;
+}
+
+#paper:hover {
+    background-color: white;
+}
+
+#scissors:hover {
+    background-color: red;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aclonica';
+    margin: 24px;
+    text-align: center;
+}
+
+.score-tables {
+    display: flex;
+    margin: 24px;
+}
+
+#player-score-table {
+    margin: 24px;
+}
+
+#computer-score-table {
+    margin: 24px;
+}
